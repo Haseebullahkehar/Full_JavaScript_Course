@@ -1,0 +1,108 @@
+<!-- /*<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Events</title>
+</head>
+<style>
+    body{
+        background-image: url('/img/hasi.jpg');
+        /* height: 100vh; */
+        height: 50px;
+        /* width: 100vw; */
+    }
+    #btn{
+        padding: 10px 14px;
+        background-color: red;
+        border: 2px solid black;
+        color: white;
+        font-weight: bold;
+        border-radius: 9px;
+
+    }
+</style>
+<body>
+
+    <div class="container">
+        <h1>This is my heading</h1>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+             consequatur porro dolorum at, dolor tempore architecto quisquam 
+             ad qui rerum iure adipisci tenetur expedita, illo saepe ratione 
+             placeat excepturi dicta, perspiciatis autem iste nesciunt consequuntur 
+             recusandae. Voluptatem illo esse rerum voluptas voluptate dolore dolores f
+             uga ad dolorum accusamus optio beatae nam nesciunt suscipit tempore atque quam, 
+             reprehenderit, nulla magnam. Pariatur, nisi doloremque numquam voluptatum similique
+              est tempore architecto mollitia adipisci quisquam illum rem dolor quae perferendis 
+              eaque distinctio voluptas libero facilis. Ipsum dolorum itaque saepe eos veniam 
+              recusandae provident dolorem nesciunt neque necessitatibus nihil, 
+            assumenda mollitia laboriosam deserunt odio alias.</p>
+
+    </div>
+    <button id="btn" onclick="toggleHide()">Show/Hide</button>
+    <script>
+        let para = document.getElementById('para');
+        para.addEventListener('mouseover', function run(){
+            alert('Mouse Inside');
+
+        });
+        // para.addEventListener('mouseout', function run(){
+        //     alert('Mouse went outside');
+
+        // });
+
+        function toggleHide(){
+            // let btn = document.getElementById('btn').style.background="green";
+            // let btn1= document.getElementById('btn').style.background= "black";
+
+            let btn= document.getElementById('btn');
+            let para = document.getElementById('para');
+            if(para.style.display != 'none')
+            para.style.display ='none';
+            else{
+                para.style.display='block';
+            }
+
+        }
+    </script>
+</body>
+</html-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<script>
+    function Hello(){
+        document.write("Hello");
+        // alert("Hello Everyone");
+        // prompt("Hello E");
+        // confirm("Hello");
+
+
+    }
+
+</script>
+<body>
+    <!-- <button onclick="Hello()">Click Me</button> -->
+    <!-- <button onfocus="Hello()">Click me</button> -->
+    <button onkeypress="Hello()">Click me</button>
+    <!-- <button onkeyup="Hello()">Click me</button>
+    <button onmouseenter="Hello()">Click me</button>
+    <button onresize="Hello()">Click me</button>
+    <button oncontextmenu="Hello()">Click me</button>
+    <button onmouseout="Hello()">Click me</button>
+    <button onmouseup="Hello()">Click me</button> -->
+
+
+
+
+
+
+</body>
+</html>

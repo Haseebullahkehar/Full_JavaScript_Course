@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Alert Box</title> -->
+    <title>Confirm Box</title>
+</head>
+<body>
+    <!-- <h1>Alert box displays the message </h1> -->
+    <!-- <h1>Confirm box answers in Yes and No</h1> -->
+    <h3>Prompt asks us to enter the values</h3>
+    <script>
+        // alert("Hello Everyone");
+        // var a=10;
+        // var b=20;
+
+        // if(a > b){
+        //     alert("A is greater:" +a);
+          
+        // }
+        // else{
+        //     alert("B is greater:" +b);
+          
+        // }
+        // confirm("Do you want our website?");
+        // var a = confirm("Do you want our website?");
+
+        //  alert(a);
+        // if(a){
+        //     alert("Thanks");
+        // }
+        // else{
+        //     alert("Sorry");
+        // }
+        // prompt("What is your name?");
+        // var a =prompt("What is your name?");
+
+        // alert(a);
+        // document.write(a);
+
+        var per =prompt("Enter your percentage");
+
+        if (per>=80 && per<=100){
+            document.write("You are in merit");
+        }
+        else if(per>= 60 && per <80){
+            document.write("You are i 1st division");
+        }
+        else if(per>=45 && per <60) {
+             document.write("You are in 2nd division");
+        }
+        else if(per >=33 && per <45){
+            document.write("You are just pass");
+        }
+        else if(per<33){
+            document.write("You are fail");
+        }
+        else{
+            document.write("Plz Enter the valid percentage");
+        }
+
+
+    </script>
+</body>
+</html>
